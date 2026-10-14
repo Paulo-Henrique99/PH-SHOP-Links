@@ -1,0 +1,39 @@
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .glass {
+      backdrop-filter: blur(14px);
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .btn-hover {
+      transition: all .25s ease;
+    }
+
+    .btn-hover:hover {
+      transform: translateY(-4px) scale(1.02);
+    }
+
+    .shadow-yellow {
+      box-shadow: 0px 0px 30px rgba(255, 208, 0, 0.35);
+    }
+
+
+    
+/* Animação suave da logo */
+.logo-animada {
+  animation: flutuar 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes flutuar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
